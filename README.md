@@ -8,10 +8,6 @@
 
 Python library for operating the Alphasense OPC-N3 Optical Particle Counter using a Raspberry Pi (or other linux device). Full documentation of the original code from David Hagan can be found [here](http://py-opc.readthedocs.org/en/latest/).
 
-Please note: the branch "opc-n3" is not yet operational, however, thanks to the Alpahsense team and the documentation, we are now able to switch the device on and off, read serial number, info-string and request the histogram. However, decoding of the histogram data and calculating the checksum ist still not correct up to now. 
-
-Please contribute!
-
 ## Dependencies
 
 One of the following, depending on whether you use GPIO pins or a SPI-USB adapter:
